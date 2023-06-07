@@ -1,5 +1,7 @@
-# Auto-Crypto-Sender
+# Auto-Crypto-Sender-For-BSC
+
 Auto Crypto Sender like Sweeper Bot
+
 How to use ;
 
 
