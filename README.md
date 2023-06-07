@@ -1,4 +1,4 @@
-# Auto-Crypto-Sender-For-BSC
+# Auto-Crypto-Sender-Bot-For-BSC
 
 Auto Crypto Sender like Sweeper Bot
 
