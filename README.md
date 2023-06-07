@@ -19,7 +19,7 @@ How to use ;
 
 3. Run the file in a Python environment such as Jupyter Notebook, Visual Studio Code, or a terminal:
    ```
-   python crypto_bot.py
+   python bot.py
    ```
 
 4. When the program starts, it will begin listening to new blocks and prompt you for some inputs. You need to provide these inputs correctly:
