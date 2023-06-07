@@ -41,5 +41,11 @@ How to use ;
    - `Error: {error_msg}`: Displays error messages.
 
 6. To terminate the program, press `Ctrl+C` in the running Python environment.
+<!-- Notes -->
+## Notes
 
+- Please use this bot responsibly and carefully. Make sure to review the code and test it thoroughly before using it with real accounts and large amounts of crypto.
+- The bot is currently designed for the Binance Smart Chain (BSC) network. Modify the `chainId` parameter in the code if you're using a different network.
+<!-- Warning -->
+## Warning
 Please be cautious as this code can perform real crypto transfers and may result in crypto loss if used incorrectly. It is recommended to test the code on a Binance Smart Chain test network or with small amounts of crypto before using real keys and large amounts of crypto. Make sure to review the code carefully.
