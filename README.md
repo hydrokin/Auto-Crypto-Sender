@@ -23,6 +23,11 @@ How to use ;
    ```
 
 4. When the program starts, it will begin listening to new blocks and prompt you for some inputs. You need to provide these inputs correctly:
+   
+   Follow the options in the menu:
+   - `1. Send Transaction`: Choose this option to make a cryptocurrency transfer. Enter the recipient's address and the sender's private key.
+   - `2. Exit`: Choose this option to exit the program.
+   -  if you choose option 1
    - `Enter the receiver's address`: Enter the address of the account to which the crypto will be sent.
    - `Enter the sender private key`: Enter the private key of the account sending the crypto.
 
