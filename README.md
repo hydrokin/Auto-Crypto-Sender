@@ -1,8 +1,6 @@
+# Contact to Buy Telegram: hydrokin
+
 # Auto-Crypto-Sender-Bot-For-BSC
-
-contact to buy
-telegram: hydrokin
-
 
 How to use ;
 
