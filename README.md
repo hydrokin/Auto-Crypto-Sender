@@ -2,7 +2,7 @@
 
 # Auto Crypto Sender
 
-Auto Crypto Sender is a Python application used to automatically send cryptocurrency donations. This application interacts with the blockchain using the Web3 library and is specific to the BSC network.
+This application interacts with the blockchain using the Web3 library and is specific to the BSC network.
 
 ## Installation
 
