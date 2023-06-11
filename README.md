@@ -1,5 +1,3 @@
-# Contact to Buy Telegram: hydrok1n
-
 # Auto-Crypto-Sender-Bot-For-BSC
 
 How to use ;
