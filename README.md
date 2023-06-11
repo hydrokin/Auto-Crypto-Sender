@@ -1,54 +1,70 @@
-# Auto-Crypto-Sender-Bot-For-BSC
-
-How to use ;
 
 
-1. Install the required libraries:
-   - `web3`: Used for interacting with Binance Smart Chain.
-   - `termcolor`: Used for providing colored outputs in the printed text.
+# Auto Crypto Sender
 
-   You can install these libraries using the pip package manager with the following commands:
+Auto Crypto Sender is a Python application used to automatically send cryptocurrency donations. This application interacts with the blockchain using the Web3 library and is specific to the BSC network.
+
+## Installation
+
+1. Make sure you have Python 3 installed to run the application.
+
+2. Install the dependencies by running the following command:
+
+   ```shell
+   pip install web3 requests termcolor
    ```
-   pip install web3
-   pip install termcolor
+
+3. Download the project files and navigate to the directory:
+
+   ```shell
+   git clone https://github.com/hydrokin/Auto-Crypto-Sender.git
+   cd auto-crypto-sender
    ```
 
-2. Copy the code into a Python file (e.g., `crypto_bot.py`).
+4. Edit the `network.txt` file and enter the network's RPC URL and chain ID:
 
-3. Run the file in a Python environment such as Jupyter Notebook, Visual Studio Code, or a terminal:
+   ```plaintext
+   <rpc_url>
+   <chain_id>
    ```
+
+5. Edit the `bot.txt` file and enter the Telegram bot API key and chat ID:
+
+   ```plaintext
+   <api_key>
+   <chat_id>
+   ```
+
+6. Start the Auto Crypto Sender application with the following command:
+
+   ```shell
    python bot.py
    ```
 
-4. When the program starts, it will begin listening to new blocks and prompt you for some inputs. You need to provide these inputs correctly:
-   
-   Follow the options in the menu:
-   - `1. Send Transaction`: Choose this option to make a cryptocurrency transfer. Enter the recipient's address and the sender's private key.
-   - `2. Exit`: Choose this option to exit the program.
-   -  if you choose option 1
-   - `Enter the receiver's address`: Enter the address of the account to which the crypto will be sent.
-   - `Enter the sender private key`: Enter the private key of the account sending the crypto.
+## Usage
 
-5. The bot will listen to new blocks and attempt to make a crypto transfer by checking your balance. Output messages will be printed to monitor the bot's status.
+When you run Auto Crypto Sender, you can follow these steps:
 
-   - `Listening to new block`: Indicates the bot is listening to new blocks.
-   - `========== Auto Crypto Sender Status ==========`: A header showing the status of the bot.
-   - `Latest Block Number`: The latest block number.
-   - `Balance`: The balance in the account.
-   - `Gas Limit`: The gas limit set for the transfer transaction.
-   - `Total Gas Cost`: The total gas cost of the transfer transaction.
-   - `Sending Successful!`: Indicates a successful transfer.
-   - `Success! Transferred --> {amount}`: Displays the transferred amount.
-   - `Transaction confirmed!`: The transaction has been successfully confirmed.
-   - `Transaction failed! Retrying with a new nonce.`: The transaction failed, and the bot will retry with a new nonce value.
-   - `Error: {error_msg}`: Displays error messages.
+1. First, it displays the donation message of Auto Crypto Sender, which includes the MATIC (Polygon) address.
 
-6. To terminate the program, press `Ctrl+C` in the running Python environment.
-<!-- Notes -->
+2. Press "1" to display the menu options.
+
+3. When you press "1", it prompts you to enter the receiver's address and the sender's private key. Enter these details correctly and press Enter.
+
+4. Auto Crypto Sender displays the current block number, balance, gas limit, and total gas cost.
+
+5. If the balance is greater than the total gas cost, the transaction is successfully executed, and a message is sent to the Telegram chat.
+
+6. In case of errors, Auto Crypto Sender displays error messages and retries the transaction if necessary.
+
+7. Close Auto Crypto Sender by pressing "2" in the menu.
+
 ## Notes
 
-- Please use this bot responsibly and carefully. Make sure to review the code and test it thoroughly before using it with real accounts and large amounts of crypto.
-- The bot is currently designed for the Binance Smart Chain (BSC) network. Modify the `chainId` parameter in the code if you're using a different network.
-<!-- Warning -->
-## Warning !
-Please be cautious as this code can perform real crypto transfers and may result in crypto loss if used incorrectly. It is recommended to test the code on a test network or with small amounts of crypto before using real keys and large amounts of crypto. Make sure to review the code carefully.
+- Auto Crypto Sender uses the BSC network by default. If you want to use a different network, modify the RPC URL and chain ID in the `network.txt` file according to the desired network.
+
+- Make sure to enter the Telegram bot API key and chat ID in the `bot.txt` file. Create a Telegram bot to obtain these credentials.
+
+- Ensure that you provide accurate information such as the RPC URL, chain ID, API key, and chat ID for Auto Crypto Sender to function correctly.
+
+This way, you can create a usage guide that will enable users to understand how to use Auto Crypto Sender. You can add or modify any additional details about the application as needed for user comprehension.
