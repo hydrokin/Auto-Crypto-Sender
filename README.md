@@ -66,5 +66,3 @@ When you run Auto Crypto Sender, you can follow these steps:
 - Make sure to enter the Telegram bot API key and chat ID in the `bot.txt` file. Create a Telegram bot to obtain these credentials.
 
 - Ensure that you provide accurate information such as the RPC URL, chain ID, API key, and chat ID for Auto Crypto Sender to function correctly.
-
-This way, you can create a usage guide that will enable users to understand how to use Auto Crypto Sender. You can add or modify any additional details about the application as needed for user comprehension.
